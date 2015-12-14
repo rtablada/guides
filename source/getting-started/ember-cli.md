@@ -113,7 +113,7 @@ Before we continue to the tutorial, let's make sure that we have the most recent
 In the shell, let's run:
 
 ```shell
-bower install ember#^2.2.0 ember-data#^2.2.0 --save -F
+bower install ember#latest ember-data#latest --save -F
 ```
 
 This will update our installed version of Ember using Bower and will update our `bower.json` to the latest version.
