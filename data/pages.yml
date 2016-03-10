@@ -9,7 +9,7 @@
   url: 'getting-started'
   pages:
     - title: "Quick Start"
-      url: "quick-start"
+      url: "index"
     - title: "Installing Ember"
       url: "installing"
     - title: "Core Concepts"
