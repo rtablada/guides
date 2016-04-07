@@ -1,7 +1,6 @@
-This guide will teach you how to build a simple app using Ember from
-scratch.
+Let's get started building our first Ember app from scratch.
 
-We'll cover these steps:
+We'll move through a few small steps:
 
 1. Installing Ember.
 2. Creating a new application.
@@ -11,8 +10,9 @@ We'll cover these steps:
 
 ## Install Ember
 
-You can install Ember with a single command using npm, the Node.js package
-manager. Type this into your terminal:
+To install Ember we can run a single command using npm, the Node.js package
+manager.
+So, we'll run this in our terminal:
 
 ```sh
 npm install -g ember-cli@2.4
