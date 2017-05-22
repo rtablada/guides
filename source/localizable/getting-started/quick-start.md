@@ -243,7 +243,7 @@ create a `programmers` route that shows a list of famous programmers. By
 re-using the `people-list` component, you can do it in almost no code at
 all.
 
-## User Events
+## Click Events
 
 So far, your application is listing data, but there is no way for the user
 to interact with the information.
@@ -263,6 +263,8 @@ First add an `action` helper to the `li` in your `people-list` component.
 ```
 
 The `action` helper allows you to add event listeners to elements and call named functions.
+By default, the `action` helper adds a `click` event listener,
+but it can be used to listen for any element event.
 Now, when the `li` element is clicked a `showPerson` function will be called
 from the `actions` object in the `people-list` component.
 Think of this like calling `this.actions.showPerson(person)` from our template.
