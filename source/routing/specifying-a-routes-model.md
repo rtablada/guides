@@ -123,7 +123,7 @@ Routes without dynamic segments will always execute the model hook.
 
 Multiple models can be returned through an
 [RSVP.hash](https://www.emberjs.com/api/ember/2.16/classes/rsvp/methods/hash?anchor=hash).
-The `RSVP.hash` method takes an object with promises or values as properties as an argument and returns a single promise.
+The `RSVP.hash` method takes an object with promises or values as properties as an argument, and returns a single promise.
 When all of the promises in the object resolve, the returned promise will resolve with an object of all of the promise values. For example:
 
 ```app/routes/songs.js
